@@ -7,11 +7,24 @@
 
 import SwiftUI
 
-struct DailyScrum {
+struct DailyScrum: Identifiable {
+    let id: UUID
     var title: String
     var attendees: [String]
     var lengthInMinutes: Int
     var color: Color
+}
+
+extension DailyScrum {
+    init(title: String, attendees: [String], lengthInMinutes: Int, color: Color) {
+        self.init(
+            id: UUID(),
+            title: title,
+            attendees: attendees,
+            lengthInMinutes: lengthInMinutes,
+            color: color
+        )
+    }
 }
 
 extension DailyScrum {
