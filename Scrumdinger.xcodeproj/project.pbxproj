@@ -13,6 +13,7 @@
 		7485E9DE25A2F4C300D1BBEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7485E9DD25A2F4C300D1BBEF /* Preview Assets.xcassets */; };
 		7485E9E925A2F4C300D1BBEF /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485E9E825A2F4C300D1BBEF /* ScrumdingerTests.swift */; };
 		7485E9F425A2F4C300D1BBEF /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485E9F325A2F4C300D1BBEF /* ScrumdingerUITests.swift */; };
+		7485EA0825A311C500D1BBEF /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA0725A311C500D1BBEF /* DailyScrum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		7485E9EF25A2F4C300D1BBEF /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7485E9F325A2F4C300D1BBEF /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		7485E9F525A2F4C300D1BBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7485EA0725A311C500D1BBEF /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				7485E9D625A2F4C100D1BBEF /* ScrumdingerApp.swift */,
 				7485E9D825A2F4C100D1BBEF /* MeetingView.swift */,
+				7485EA0725A311C500D1BBEF /* DailyScrum.swift */,
 				7485E9DA25A2F4C300D1BBEF /* Assets.xcassets */,
 				7485E9DF25A2F4C300D1BBEF /* Info.plist */,
 				7485E9DC25A2F4C300D1BBEF /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7485E9D925A2F4C100D1BBEF /* MeetingView.swift in Sources */,
+				7485EA0825A311C500D1BBEF /* DailyScrum.swift in Sources */,
 				7485E9D725A2F4C100D1BBEF /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
