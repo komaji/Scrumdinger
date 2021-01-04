@@ -16,6 +16,7 @@
 		7485EA0825A311C500D1BBEF /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA0725A311C500D1BBEF /* DailyScrum.swift */; };
 		7485EA0D25A313DE00D1BBEF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA0C25A313DE00D1BBEF /* CardView.swift */; };
 		7485EA1325A31C9B00D1BBEF /* Color+Scrumdinger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA1225A31C9B00D1BBEF /* Color+Scrumdinger.swift */; };
+		7485EA1825A31F8700D1BBEF /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA1725A31F8700D1BBEF /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7485EA0725A311C500D1BBEF /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		7485EA0C25A313DE00D1BBEF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7485EA1225A31C9B00D1BBEF /* Color+Scrumdinger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Scrumdinger.swift"; sourceTree = "<group>"; };
+		7485EA1725A31F8700D1BBEF /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				7485E9D825A2F4C100D1BBEF /* MeetingView.swift */,
 				7485EA0725A311C500D1BBEF /* DailyScrum.swift */,
 				7485EA0C25A313DE00D1BBEF /* CardView.swift */,
+				7485EA1725A31F8700D1BBEF /* ScrumsView.swift */,
 				7485E9DA25A2F4C300D1BBEF /* Assets.xcassets */,
 				7485E9DF25A2F4C300D1BBEF /* Info.plist */,
 				7485E9DC25A2F4C300D1BBEF /* Preview Content */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7485EA1325A31C9B00D1BBEF /* Color+Scrumdinger.swift in Sources */,
+				7485EA1825A31F8700D1BBEF /* ScrumsView.swift in Sources */,
 				7485E9D925A2F4C100D1BBEF /* MeetingView.swift in Sources */,
 				7485EA0825A311C500D1BBEF /* DailyScrum.swift in Sources */,
 				7485EA0D25A313DE00D1BBEF /* CardView.swift in Sources */,
