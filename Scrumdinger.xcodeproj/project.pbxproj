@@ -22,6 +22,7 @@
 		7485EA3425A4602200D1BBEF /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA3325A4602200D1BBEF /* MeetingHeaderView.swift */; };
 		7485EA3A25A464A500D1BBEF /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA3925A464A500D1BBEF /* ScrumProgressViewStyle.swift */; };
 		7485EA4225A467E800D1BBEF /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA4125A467E800D1BBEF /* ScrumTimer.swift */; };
+		7485EA4725A469C600D1BBEF /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA4625A469C600D1BBEF /* MeetingFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		7485EA3325A4602200D1BBEF /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		7485EA3925A464A500D1BBEF /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		7485EA4125A467E800D1BBEF /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		7485EA4625A469C600D1BBEF /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				7485EA3325A4602200D1BBEF /* MeetingHeaderView.swift */,
 				7485EA4125A467E800D1BBEF /* ScrumTimer.swift */,
 				7485E9D825A2F4C100D1BBEF /* MeetingView.swift */,
+				7485EA4625A469C600D1BBEF /* MeetingFooterView.swift */,
 				7485EA0725A311C500D1BBEF /* DailyScrum.swift */,
 				7485EA2D25A42D1C00D1BBEF /* EditView.swift */,
 				7485EA0C25A313DE00D1BBEF /* CardView.swift */,
@@ -291,6 +294,7 @@
 				7485EA2E25A42D1C00D1BBEF /* EditView.swift in Sources */,
 				7485EA3425A4602200D1BBEF /* MeetingHeaderView.swift in Sources */,
 				7485E9D925A2F4C100D1BBEF /* MeetingView.swift in Sources */,
+				7485EA4725A469C600D1BBEF /* MeetingFooterView.swift in Sources */,
 				7485EA2925A32CD600D1BBEF /* DetailView.swift in Sources */,
 				7485EA4225A467E800D1BBEF /* ScrumTimer.swift in Sources */,
 				7485EA0825A311C500D1BBEF /* DailyScrum.swift in Sources */,
