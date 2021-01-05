@@ -13,16 +13,18 @@ struct DailyScrum: Identifiable {
     var attendees: [String]
     var lengthInMinutes: Int
     var color: Color
+    var history: [History]
 }
 
 extension DailyScrum {
-    init(title: String, attendees: [String], lengthInMinutes: Int, color: Color) {
+    init(title: String, attendees: [String], lengthInMinutes: Int, color: Color, history: [History] = []) {
         self.init(
             id: UUID(),
             title: title,
             attendees: attendees,
             lengthInMinutes: lengthInMinutes,
-            color: color
+            color: color,
+            history: history
         )
     }
 }
