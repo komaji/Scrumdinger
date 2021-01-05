@@ -17,6 +17,13 @@ extension Color {
         return isLightColor(red: red, green: green, blue: blue) ? .black : .white
     }
 
+    static var random: Color {
+        let red = Double.random(in: 0...1)
+        let green = Double.random(in: 0...1)
+        let blue = Double.random(in: 0...1)
+        return Color(.sRGB, red: red, green: green, blue: blue, opacity: 1)
+    }
+
     private func isLightColor(red: CGFloat, green: CGFloat, blue: CGFloat) -> Bool {
         let lightRed = red > 0.65
         let lightGreen = green > 0.65
