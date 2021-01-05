@@ -26,6 +26,7 @@
 		7485EA4C25A46E7A00D1BBEF /* AVPlayer+Scrumdinger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA4B25A46E7A00D1BBEF /* AVPlayer+Scrumdinger.swift */; };
 		7485EA5425A46FBD00D1BBEF /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7485EA5325A46FBD00D1BBEF /* ding.wav */; };
 		7485EA5A25A474E900D1BBEF /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA5925A474E900D1BBEF /* History.swift */; };
+		7485EA6025A478D700D1BBEF /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485EA5F25A478D700D1BBEF /* ScrumData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		7485EA4B25A46E7A00D1BBEF /* AVPlayer+Scrumdinger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Scrumdinger.swift"; sourceTree = "<group>"; };
 		7485EA5325A46FBD00D1BBEF /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		7485EA5925A474E900D1BBEF /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		7485EA5F25A478D700D1BBEF /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				7485EA4B25A46E7A00D1BBEF /* AVPlayer+Scrumdinger.swift */,
 				7485EA4625A469C600D1BBEF /* MeetingFooterView.swift */,
 				7485EA0725A311C500D1BBEF /* DailyScrum.swift */,
+				7485EA5F25A478D700D1BBEF /* ScrumData.swift */,
 				7485EA2D25A42D1C00D1BBEF /* EditView.swift */,
 				7485EA0C25A313DE00D1BBEF /* CardView.swift */,
 				7485EA1725A31F8700D1BBEF /* ScrumsView.swift */,
@@ -304,6 +307,7 @@
 				7485EA5A25A474E900D1BBEF /* History.swift in Sources */,
 				7485EA2E25A42D1C00D1BBEF /* EditView.swift in Sources */,
 				7485EA3425A4602200D1BBEF /* MeetingHeaderView.swift in Sources */,
+				7485EA6025A478D700D1BBEF /* ScrumData.swift in Sources */,
 				7485E9D925A2F4C100D1BBEF /* MeetingView.swift in Sources */,
 				7485EA4725A469C600D1BBEF /* MeetingFooterView.swift in Sources */,
 				7485EA2925A32CD600D1BBEF /* DetailView.swift in Sources */,
