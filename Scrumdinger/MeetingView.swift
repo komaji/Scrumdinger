@@ -29,7 +29,7 @@ struct MeetingView: View {
                     secondsRemaining: $scrumTimer.secondsRemaining,
                     scrumColor: scrum.color
                 )
-                MeetingTimerView(speakers: $scrumTimer.speakers, scrumColor: scrum.color)
+                MeetingTimerView(speakers: $scrumTimer.speakers, isRecoding: $isRecoding, scrumColor: scrum.color)
                 MeetingFooterView(speakers: $scrumTimer.speakers, skipAction: scrumTimer.skipSpeaker)
             }
         }
